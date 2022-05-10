@@ -1,0 +1,23 @@
+{
+  "name": "task1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "Order_management_task.js",
+  "scripts": {
+    "start": "jest --watchAll --config jest.config.ts ./__tests__",
+    "into:js":"tsc ./Order_management_task.ts --outDir ./src"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ts-node": "^10.7.0",
+    "ts-node-dev": "^1.1.8"
+  },
+  "devDependencies": {
+    "@types/jest": "^27.4.1",
+    "jest": "^28.0.3",
+    "ts-jest": "^28.0.0-next.3",
+    "typescript": "^4.6.4"
+  }
+}
